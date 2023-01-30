@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 39, in script
+    e "Good morning %(player_name)! You're up late!"
+ValueError: unsupported format character '!' (0x21) at index 27
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 39, in script
+    e "Good morning %(player_name)! You're up late!"
+  File "C:\RenPY\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\RenPY\renpy-8.0.3-sdk\renpy\exports.py", line 1362, in say
+    what = what % tag_quoting_dict
+ValueError: unsupported format character '!' (0x21) at index 27
+
+Windows-10-10.0.22621 AMD64
+Ren'Py 8.0.3.22090809
+BelowTheStars 1.0
+Sun Jan 29 19:17:33 2023

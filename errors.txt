@@ -1,0 +1,18 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 63: reached end of line when expecting ':'.
+    if honesty > 0
+                  ^
+
+File "game/script.rpy", line 65: expected statement.
+    elif romance > 0
+                 ^
+
+File "game/script.rpy", line 67: expected statement.
+    else
+        ^
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Sun Jan 29 20:38:08 2023
